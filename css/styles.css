@@ -71,23 +71,19 @@ body {
 /* hero */
 
 .hero__section {
-    background: url(../img/hero__section/group1.png), lightgray 50% / cover no-repeat;
-
+    background-image: url(../img/hero__section/group1.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.hero__section__img {
-    background: url(../img/hero__section/group1.png), lightgray 50% / cover no-repeat;
-
-}
 
 .hero__section__h1 {
     color: #FFF;
 
     font-family: "Playfair Display";
     font-size: 144px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .hero__section__subtitle {
@@ -95,52 +91,37 @@ body {
 
     font-family: "Playfair Display";
     font-size: 72px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .hero__section__text {
     color: #FFF;
 
-    font-family: Roboto;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .hero__section__logo {
-    width: 178px;
-    height: 86px;
-    flex-shrink: 0;
     color: #FFF;
 
     font-family: "PT Serif";
     font-size: 48px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .hero__section__button {
 
     color: #FFF;
 
-    font-family: Roboto;
     font-size: 24px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 
-    width: 254px;
-    height: 67px;
     flex-shrink: 0;
     border-radius: 10px;
     background: #8E32C6;
 
-   margin-bottom: 183px;
-   margin-top: 41px;
+    margin-bottom: 183px;
+    margin-top: 41px;
 }
 
 /* custom__nikes */
@@ -148,8 +129,10 @@ body {
 
 
 .custom__nikes {
-    background: url(../img/custom__nikes/group81.png), lightgray 0px -384px / 100% 227.888% no-repeat;
-    height: 606px;
+    background: url(../img/custom__nikes/group81.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .custom__nikes__list {
@@ -176,8 +159,10 @@ body {
 }
 
 .reviews {
-    height: 520px;
-    background: url(../img/reviews__section/group61.png), lightgray 0px -9px / 100% 255.769% no-repeat;
+    background: url(../img/reviews__section/group61.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .reviews__section__title {
