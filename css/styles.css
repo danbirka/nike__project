@@ -169,6 +169,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-bottom: 114px;
+    padding-top: 24px;
 }
 
 .reviews__section__title {
