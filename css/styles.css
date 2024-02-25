@@ -110,16 +110,11 @@ body {
 }
 
 .hero__section__button {
-
     color: #FFF;
-
     font-size: 24px;
     font-weight: 400;
-
-    flex-shrink: 0;
     border-radius: 10px;
     background: #8E32C6;
-
     margin-bottom: 183px;
     margin-top: 41px;
 }
@@ -143,6 +138,10 @@ body {
 
 .custom__nikes__item {
     border-right: 1px solid #FFF;
+}
+
+.custom__nikes__item:nth-child(1) {
+    padding-right: 95px;
 }
 
 .custom__nikes__title {
@@ -234,3 +233,46 @@ body {
 }
 
 /* Order__section */
+
+.order__section {
+    background-image: url(../img/order__section/group21.png);
+}
+
+.order__section__title {
+    color: #FFF;
+
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.order__form__label {
+
+    color: #959595;
+    line-height: 33px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.order__form__input {
+    border-radius: 50px;
+    background: #FFF;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.order__form__input:first-child {
+    border-radius: 50px;
+    background: #FFF;
+    margin-top: 33px;
+}
+
+.order__section__button {
+    color: #FFF;
+
+    font-size: 24px;
+    font-weight: 400;
+
+    border-radius: 16px;
+    background: #8E32C6;
+}
