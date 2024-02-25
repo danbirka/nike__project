@@ -71,10 +71,13 @@ body {
 /* hero */
 
 .hero__section {
+
     background-image: url(../img/hero__section/group1.png);
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
+    padding-top: 94px;
+    padding-bottom: 183px;
 }
 
 
@@ -115,8 +118,8 @@ body {
     font-weight: 400;
     border-radius: 10px;
     background: #8E32C6;
-    margin-bottom: 183px;
     margin-top: 41px;
+    padding: 20px 61px;
 }
 
 /* custom__nikes */
@@ -128,20 +131,25 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 105px 0px;
 }
 
 .custom__nikes__list {
     display: flex;
     border: 5px solid #8E32C6;
-    padding: 50px;
+    padding: 25px 0px;
 }
 
-.custom__nikes__item {
+.custom__nikes__item:not(:last-child) {
     border-right: 1px solid #FFF;
 }
 
-.custom__nikes__item:nth-child(1) {
-    padding-right: 95px;
+.custom__nikes__item:nth-child(odd) {
+    padding: 0px 50px;
+}
+
+.custom__nikes__item:nth-child(2) {
+    padding: 0px 95px;
 }
 
 .custom__nikes__title {
@@ -154,7 +162,6 @@ body {
 
 .custom__nikes__img {
     width: 240px;
-    height: 240px;
 }
 
 .reviews {
@@ -236,7 +243,10 @@ body {
 
 .order__section {
     background-image: url(../img/order__section/group21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .order__section__title {
     color: #FFF;
@@ -244,28 +254,39 @@ body {
     font-family: "Playfair Display";
     font-size: 48px;
     font-weight: 400;
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
 }
 
 .order__form__label {
-
     color: #959595;
-    line-height: 33px;
+    font-family: Roboto;
     font-size: 28px;
     font-weight: 400;
+}
+
+.order__form__email {
+    border-radius: 50px;
+    background: #FFF;
+    padding: 13px 25px;
+    width: 690px;
 }
 
 .order__form__input {
     border-radius: 50px;
     background: #FFF;
-    margin-top: 19px;
-    margin-bottom: 19px;
+    padding: 13px 25px;
+    width: 580px;
 }
 
-.order__form__input:first-child {
-    border-radius: 50px;
-    background: #FFF;
-    margin-top: 33px;
-}
+
 
 .order__section__button {
     color: #FFF;
@@ -276,3 +297,11 @@ body {
     border-radius: 16px;
     background: #8E32C6;
 }
+
+
+
+
+
+
+
+
