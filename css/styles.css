@@ -317,3 +317,44 @@ body {
 
     padding: 20px 49px;
 }
+
+/* footer */
+
+.footer {
+    background-color: #021635;
+}
+.footer__quescions__list {
+  
+}
+.footer__quescions__item {
+}
+.footer__quescions__text {
+    color: #FFF;
+
+font-size: 24px;
+font-weight: 400;
+}
+.footer__quescions__link {
+    color: #FFF;
+font-size: 24px;
+font-weight: 400;
+text-decoration-line: underline;
+}
+.footer__item {
+}
+.footer__contact__list {
+}
+.footer__contact__item {
+}
+.footer__list {
+}
+.footer__text {
+    color: #FFF;
+
+font-size: 18px;
+font-weight: 400;
+}
+.nike__logo {
+}
+.nike__c_and_r {
+}
