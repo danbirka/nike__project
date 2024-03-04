@@ -326,7 +326,25 @@ body {
 /* footer */
 
 .footer {
+    color: #FFF;
     background-color: #021635;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.footer__div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9B9B9B;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+}
+
+.footer__site-info {}
+
+.footer__copyright {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer__quescions__list {}
@@ -334,14 +352,13 @@ body {
 .footer__quescions__item {}
 
 .footer__quescions__text {
-    color: #FFF;
 
     font-size: 24px;
     font-weight: 400;
 }
 
 .footer__quescions__link {
-    color: #FFF;
+
     font-size: 24px;
     font-weight: 400;
     text-decoration-line: underline;
@@ -351,7 +368,12 @@ body {
 
 .footer__contact__list {}
 
-.footer__contact__item {}
+.footer__contact__item {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
 
 .footer__copyright {}
 
@@ -364,4 +386,10 @@ body {
 
 .nike__logo {}
 
-.nike__c_and_r {}
+.nike__c_and_r {
+    color: #FFF;
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
